@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title> CSS Combinators Challenge </title>
+       <style>
+           .selected {
+               color: black;
+               font-weight: bold;
+           }
+           
+           ol li {
+               color: violet
+           }
+           
+           .important {
+               color:red;
+           }
+           
+           div > p { 
+               color: red 
+           }
+           
+           div + h4 {
+               color : blue
+           }
+           
+       </style>
+   </head>
+
+    <body>
+        <p> leave this text as the default black </p>
+       
+        <br> </br> 
+    
+       <ol> 
+            <li> make the text for list items 1 and 2 violet using a descendant selector</li>
+            <li> make the text for list items 1 and 2 violet using a descendant selector</li>
+        </ol>
+       
+       
+        <p class="important"> make this text red using a child selector </p>
+    
+        <h4> make this text blue using an adjacent selector </h4>
+    
+        
+    </body>
+    
+</html>
